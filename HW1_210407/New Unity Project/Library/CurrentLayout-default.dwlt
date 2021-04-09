@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 403
     height: 931
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -266,13 +266,13 @@ MonoBehaviour:
     height: 618
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,11 +338,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 94
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 94
   m_LastProjectPath: "C:\\Users\\\uC774\uD0DC\uACBD\\Desktop\\git\\3D_CONTENT_unity_KU\\HW1_210407\\New
     Unity Project"
@@ -350,8 +350,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2650000
-    m_LastClickedID: 26050
+    m_SelectedIDs: 94650000
+    m_LastClickedID: 26004
     m_ExpandedIDs: 000000009465000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000aa55000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -565,9 +565,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.35301, y: 8.924654, z: 3.414894}
+    m_Target: {x: -2.1134033, y: 13.016185, z: 4.026041}
     speed: 2
-    m_Value: {x: -9.878659, y: 9.669763, z: 3.3128233}
+    m_Value: {x: -2.1134033, y: 13.016185, z: 4.026041}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,13 +613,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06360361, y: 0.87378526, z: -0.1163016, w: -0.4685985}
+    m_Target: {x: 0.0384478, y: 0.9313323, z: -0.106471725, w: 0.3470834}
     speed: 2
-    m_Value: {x: -0.06305308, y: 0.8729682, z: -0.11485822, w: -0.46984944}
+    m_Value: {x: 0.038435094, y: 0.93102455, z: -0.10643654, w: 0.34696868}
   m_Size:
-    m_Target: 22.375668
+    m_Target: 11.625763
     speed: 2
-    m_Value: 23.43002
+    m_Value: 11.625763
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -695,8 +695,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -564
     m_HBaseRangeMax: 564
-    m_VBaseRangeMin: -298.5
-    m_VBaseRangeMax: 298.5
+    m_VBaseRangeMin: -288
+    m_VBaseRangeMax: 288
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -713,11 +713,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1128
-      height: 597
+      height: 576
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 564, y: 298.5}
+    m_Translation: {x: 564, y: 288}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -725,9 +725,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -564
-      y: -298.5
+      y: -288
       width: 1128
-      height: 597
+      height: 576
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1128, y: 597}
